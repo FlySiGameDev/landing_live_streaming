@@ -2,9 +2,10 @@
   "name": "langing_live_streaming-main",
   "version": "1.0.0",
   "description": "landing page live streaming",
-  "main": "index.html",
   "scripts": {
-    "sass:watch": "sass --style=expanded --watch styles:dist"
+    "sass:watch": "sass --style=expanded --watch styles:dist",
+    "parcel:watch": "parcel serve --dist-dir public",
+    "parcel:build": "parcel build index.html --dist-dir build --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
   },
   "homepage": "https://github.com/FlySiGameDev/landing_live_streaming#readme",
   "devDependencies": {
-    "parcel": "^2.16.0",
+    "parcel": "^2.9.3",
     "sass": "^1.93.2"
   }
 }
