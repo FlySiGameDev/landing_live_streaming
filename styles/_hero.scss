@@ -65,7 +65,7 @@
       .hero__action-btn {
         width: 260px;
         height: 60px;
-        @include m.font(18px, 400, v.$color_black);
+        @include m.font(18px, 400, v.$color_white);
       }
     }
     @media (max-width: v.$media_sm) {
@@ -75,6 +75,16 @@
 
       .hero__title {
         @include m.font(45px, 700, v.$color_black);
+      }
+    }
+
+    @media (max-width: v.$media_min) {
+      width: 100%;
+      max-width: 300px;
+      height: 280px;
+
+      .hero__title {
+        @include m.font(32px, 700, v.$color_black);
       }
     }
   }

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "landing page live streaming",
   "scripts": {
-    "sass:watch": "sass --style=expanded --watch styles:dist",
+    "sass:watch": "sass --style=compressed --watch styles:dist",
     "parcel:watch": "parcel serve --dist-dir public",
     "parcel:build": "parcel build index.html --dist-dir build --public-url ./"
   },

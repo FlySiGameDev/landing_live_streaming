@@ -1,6 +1,6 @@
 node_modules
-dist
 .vscode
 public
 build
 .parcel-cache
+index.css.map
